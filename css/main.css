@@ -51,7 +51,7 @@ header {
 footer {
   width: 100%;
   height: 30px;
-  background: #e3e3e3;
+  background: #cfbaf0;
 }
 
 
@@ -63,16 +63,21 @@ footer {
     background-color: #CCD5AE ;
   }
 
+  .col-3 {
+    width: 50%;
+  }
+
   #column-1 {
-    background-color: #E9EDC9 ;
+    background-color: #9b2226 ;
   }
 
   #column-2 {
-    background-color: #FEFAE0 ;
+    background-color: #ffd60a ;
   }
 
   #column-3 {
     background-color: #FAEDCD ;
+    width: 100%;
   }
 
   footer {
@@ -86,6 +91,13 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: #606C38;
+    width: 100%;
+  }
+
+  .one-third-width {
+    width: 33.3%;
+
+
   }
 
   #column-1 {
@@ -98,10 +110,12 @@ footer {
 
   #column-3 {
     background-color: #DDA15E ;
+    width: 33.3%;
   }
 
   footer {
     background-color: #BC6C25;
+
   }
    
 }
